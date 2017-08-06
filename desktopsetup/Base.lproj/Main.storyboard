@@ -32,9 +32,12 @@
                                 <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GAz-5Y-ZDw">
-                                <rect key="frame" x="141" y="194" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GAz-5Y-ZDw">
+                                <rect key="frame" x="139" y="194" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="8CM-EC-cq2"/>
+                                    <constraint firstAttribute="height" constant="30" id="lSm-Nh-lJh"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -42,6 +45,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="2sh-rE-6mW" firstAttribute="top" secondItem="GAz-5Y-ZDw" secondAttribute="bottom" constant="94.5" id="FPq-Du-qdJ"/>
+                            <constraint firstItem="GAz-5Y-ZDw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wb1-CI-hhE"/>
                             <constraint firstItem="2sh-rE-6mW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e03-8q-3X3"/>
                             <constraint firstItem="2sh-rE-6mW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="of0-qF-QCG"/>
                         </constraints>
